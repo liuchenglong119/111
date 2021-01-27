@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+xml文件的声明，
+ 告知解析器目前采用的xml的版本  1.0
+ 解析当前的xml使用的编码集是utf-8
+ -->
+<!-- 在xml文件中
+   所有的标签都是可以自定义的
+   1.必须成双成对的
+   2.xml中必须有且只有一个根节点  <stus></stus>
+   3.xml标签可以带有属性，可以相互嵌套
+   4.xml标签可以自定义，但是必须见名知意
+   5.xml标签一般小写
+ -->
+<stus>
+    <student id="001">
+        <name>骚磊</name>
+        <age>78</age>
+        <gender>0</gender>
+    </student>
+    <student id="002">
+        <name>老邢</name>
+        <age>68</age>
+        <gender>0</gender>
+    </student>
+    <student id="001">
+        <name>帅栋</name>
+        <age>16</age>
+        <gender>1</gender>
+    </student>
+</stus>
